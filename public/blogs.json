@@ -1,47 +1,52 @@
  [
       {
         "id": "1",
-        "cover-img": "https://i.ibb.co/3m7XrBH/images.jpg",
+        "cover": "https://i.ibb.co/3m7XrBH/images.jpg",
         "title": "The Art of Data Fiction",
-        "profile-img": "https://example.com/author1-profile.jpg",
-        "posted-date": "2023-09-13",
-        "reading-time": "8 min",
+        "profile_img": "https://i.ibb.co/dGL05WK/boy1.png",
+        "author" : "Wohn",
+        "posted_date": "2023-09-13",
+        "reading_time": "8 min",
         "hashtags": ["data", "fiction", "art"]
       },
       {
         "id": "2",
-        "cover-img": "https://i.ibb.co/2gch1TB/images-1.jpg",
+        "cover": "https://i.ibb.co/2gch1TB/images-1.jpg",
         "title": "Exploring Virtual Reality",
-        "profile-img": "https://example.com/author2-profile.jpg",
-        "posted-date": "2023-09-12",
-        "reading-time": "10 min",
+        "profile_img": "https://i.ibb.co/dGL05WK/boy1.png",
+        "author" : "kohn",
+        "posted_date": "2023-09-12",
+        "reading_time": "10 min",
         "hashtags": ["virtualreality", "technology", "exploration"]
       },
       {
         "id": "3",
-        "cover-img": "https://i.ibb.co/xqDGsFB/images-2.jpg",
+        "cover": "https://i.ibb.co/xqDGsFB/images-2.jpg",
         "title": "Healthy Eating Habits",
-        "profile-img": "https://example.com/author3-profile.jpg",
-        "posted-date": "2023-09-11",
-        "reading-time": "6 min",
+        "profile_img": "https://i.ibb.co/fHVnX6W/boy2.jpg",
+        "author" : "john",
+        "posted_date": "2023-09-11",
+        "reading_time": "6 min",
         "hashtags": ["health", "nutrition", "wellness"]
       },
       {
         "id": "4",
-        "cover-img": "https://i.ibb.co/NyHVyQb/images-3.jpg",
+        "cover": "https://i.ibb.co/NyHVyQb/images-3.jpg",
         "title": "Traveling on a Budget",
-        "profile-img": "https://example.com/author4-profile.jpg",
-        "posted-date": "2023-09-10",
-        "reading-time": "7 min",
+        "profile_img": "https://i.ibb.co/6ygy4sQ/girl1.jpg",
+        "author" : "yohn",
+        "posted_date": "2023-09-10",
+        "reading_time": "7 min",
         "hashtags": ["travel", "budget", "adventure"]
       },
       {
         "id": "5",
-        "cover-img": "https://i.ibb.co/z8dWWcP/images.png",
+        "cover": "https://i.ibb.co/z8dWWcP/images.png",
         "title": "The Future of AI",
-        "profile-img": "https://example.com/author5-profile.jpg",
-        "posted-date": "2023-09-09",
-        "reading-time": "9 min",
+        "profile_img": "https://i.ibb.co/wC81Yd7/girl2.jpg",
+        "author" : "oohn",
+        "posted_date": "2023-09-09",
+        "reading_time": "9 min",
         "hashtags": ["artificialintelligence", "technology", "future"]
       }
     ]
