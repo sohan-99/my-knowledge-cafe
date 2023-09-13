@@ -9,18 +9,24 @@ import Blog from './components/Blog/Blog'
 function App() {
   
 const [bookmarks, setBookmarks] = useState([])
+const [reading, setReading]= useState(0)
 const handleAddBookmark = Blog=>{
   // console.log(Blog);
   const newBookMarkes = [...bookmarks, Blog];
   setBookmarks(newBookMarkes);
 }
+const handleMarkasRead= time =>{
+  console.log('mark as read', time);
+}
+
+
   return (
     <>
     <Header></Header>
     <div className='md:flex max-w-7xl mx-auto'>
-    <Blogs handleAddBookmark={handleAddBookmark}></Blogs>
+    <Blogs handleAddBookmark={handleAddBookmark} handleMarkasRead={handleMarkasRead}></Blogs>
     {/* <Bookmarks Bookmarks = {bookmarks} ></Bookmarks> */}
-    <Bookmarks  Bookmarks = {bookmarks} ></Bookmarks>
+    <Bookmarks  bookmarks = {bookmarks} ></Bookmarks>
     </div>
      
     </>
@@ -28,3 +34,5 @@ const handleAddBookmark = Blog=>{
 }
 
 export default App
+
+
