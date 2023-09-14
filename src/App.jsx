@@ -16,7 +16,10 @@ const handleAddBookmark = Blog=>{
   setBookmarks(newBookMarkes);
 }
 const handleMarkasRead= time =>{
-  console.log('mark as read', time);
+  // console.log('mark as read', time);
+  const newReading = reading + parseFloat(time);
+  console.log(newReading);
+  setReading(newReading)
 }
 
 
@@ -26,7 +29,7 @@ const handleMarkasRead= time =>{
     <div className='md:flex max-w-7xl mx-auto'>
     <Blogs handleAddBookmark={handleAddBookmark} handleMarkasRead={handleMarkasRead}></Blogs>
     {/* <Bookmarks Bookmarks = {bookmarks} ></Bookmarks> */}
-    <Bookmarks  bookmarks = {bookmarks} ></Bookmarks>
+    <Bookmarks  bookmarks = {bookmarks} reading={reading} ></Bookmarks>
     </div>
      
     </>

@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import { BsBookmark } from 'react-icons/bs';
 
-const Blog = ({ blog, handleAddBookmark }) => {
+const Blog = ({ blog, handleAddBookmark,handleMarkasRead }) => {
     const { title, cover, profile_img, reading_time, author, posted_date, hashtags } = blog;
     return (
         <div className='mt-20 mb-8 space-y-4'>
